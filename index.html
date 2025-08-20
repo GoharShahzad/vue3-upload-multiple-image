@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-upload-multiple-image</title>
+  </head>
+  <body>
+    <div id="my-strictly-unique-vue-upload-multiple-image">
+      <vue-upload-multiple-image></vue-upload-multiple-image>
+    </div>
+
+    <script type="module">
+      import * as Vue from './node_modules/vue/dist/vue.esm-browser.prod.js'
+      import VueUploadMultipleImage from './dist/vue-upload-multiple-image.es.js'
+      import './dist/vue-upload-multiple-image.css'
+    
+      const app = Vue.createApp({})
+      app.component('VueUploadMultipleImage', VueUploadMultipleImage)
+      app.mount('#my-strictly-unique-vue-upload-multiple-image')
+    </script>    
+  </body>
+</html>
