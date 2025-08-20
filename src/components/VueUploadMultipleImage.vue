@@ -1,3 +1,11 @@
+<script setup>
+
+import { ref } from 'vue'
+
+const fileInput = ref(null)
+// defineExpose({ fileInput })
+
+</script>
 <template>
   <div class="vue-upload-multiple-image">
     <div
